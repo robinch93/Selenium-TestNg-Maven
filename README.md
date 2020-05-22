@@ -17,29 +17,28 @@ Below are the ways to run all three files :
 
 Below is the dicussion about all the three Challenges with their respective link to the corresponding files:
 
-- Technical Challenge 1: This was a GUI test which was parameterized using TestNG to run it in three browsers, firefox, IE and Chrome. Before execution 
-                         path of the respective drivers for each browser need to be updated according to the local machine. 
+- Technical Challenge 1: This was a GUI test which was parameterized using TestNG to run it in three browsers, firefox, IE and Chrome in parallel. Before execution, path of the respective drivers for each browser need to be updated according to their location in local machine. 
 
-[src/test/java/GuiTest/TechnicalChallenge1.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/TechnicalChallenge1.java)
+&nbsp; [src/test/java/GuiTest/TechnicalChallenge1.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/TechnicalChallenge1.java)
 
-[src/test/java/GuiTest/testng.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/testng.xml)
+&nbsp; [src/test/java/GuiTest/testng.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/testng.xml)
 
 - Technical Challenge 2: This was an API test which has six test cases, for different kind of validations on the API provided.
 
-[src/test/java/ApiTest/TechnicalChallenge2.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/ApiTest/TechnicalChallenge2.java)
+&nbsp; [src/test/java/ApiTest/TechnicalChallenge2.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/ApiTest/TechnicalChallenge2.java)
 
 - Technical Challenge 3: This was a coding challenge. It executes in the console and requires user input in between. 
 
-[src/test/java/CodingProblem/TechnicalChallenge3.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/CodingProblem/TechnicalChallenge3.java)
+&nbsp; [src/test/java/CodingProblem/TechnicalChallenge3.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/CodingProblem/TechnicalChallenge3.java)
 
 
 - Maven POM.xml: Maven framework was used to easily manage libraries through the pom file. 
 
-[MyTheresa/pom.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/pom.xml)
+&nbsp; [MyTheresa/pom.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/pom.xml)
 
 - Execution Results: Below folder contains the results generated after execution of all three challenges, as screenshots. 
 
-[src/test/resources](https://github.com/robinch93/MyTheresa/tree/master/MyTheresa/src/test/resources)
+&nbsp; [src/test/resources](https://github.com/robinch93/MyTheresa/tree/master/MyTheresa/src/test/resources)
 
 
 
