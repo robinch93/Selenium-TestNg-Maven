@@ -27,9 +27,11 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class TechnicalChallenge1 {
 
-	public String baseUrl = "https://www.mytheresa.com/en-de/";
+	public String baseUrl = "https://www.mytheresa.com/en-it/";
 	public WebDriver driver;
 	
 	@BeforeTest
@@ -38,17 +40,17 @@ public class TechnicalChallenge1 {
 		
 		if(browserName.equalsIgnoreCase("firefox")) {
 			System.out.println("Launching Firefox Browser");
-			System.setProperty("webdriver.gecko.driver", "D:\\Drivers\\Browsers\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}else if (browserName.equalsIgnoreCase("chrome")) {
 			System.out.println("Launching Chrome Browser");
-			System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\Browsers\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			driver = new ChromeDriver(options);
 		}else if (browserName.equalsIgnoreCase("IE")) {
 			System.out.println("Launching IE Browser");
-			System.setProperty("webdriver.ie.driver", "D:\\Drivers\\Browsers\\IEDriverServer.exe");
+			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 		}
 		
