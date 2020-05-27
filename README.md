@@ -23,7 +23,7 @@ Below is the dicussion about all the three Challenges with their respective link
 
 &nbsp; [src/test/java/GuiTest/testng.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/testng.xml)
 
-- Technical Challenge 2: This was an API test which has six test cases, for different kind of validations on the API provided.
+- Technical Challenge 2: This was an API test which has six test cases, for different kind of validations on the API provided. The Schema files were created by converting json to pojo format, to easily access different attributes of json using methods, and perform validations. Those schema files are are also in ApiTest package. 
 
 &nbsp; [src/test/java/ApiTest/TechnicalChallenge2.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/ApiTest/TechnicalChallenge2.java)
 
