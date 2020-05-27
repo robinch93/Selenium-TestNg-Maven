@@ -31,7 +31,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TC_1_GuiTest {
 
-	public String baseUrl = "https://www.mytheresa.com/en-it/";
+	public String baseUrl = "https://www.mytheresa.com/en-de/";
 	public WebDriver driver;
 	
 	@BeforeTest
