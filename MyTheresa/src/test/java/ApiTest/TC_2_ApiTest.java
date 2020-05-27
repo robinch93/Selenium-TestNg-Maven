@@ -17,7 +17,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
-public class TechnicalChallenge2 {
+public class TC_2_ApiTest {
 
 	Response response;
 	

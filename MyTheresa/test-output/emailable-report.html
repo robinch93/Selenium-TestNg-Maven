@@ -9,50 +9,173 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">ChromeTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">45,890</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">IETest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,050</td><td></td><td></td></tr>
-<tr><td><a href="#t2">FireFoxTest</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">83,191</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num attn">3</th><th class="num">188,131</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">ChromeTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">14,210</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">IETest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,996</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FireFoxTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">72,389</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">153,595</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">GuiTest.TechnicalChallenge1</td><td><a href="#m0">testSearch</a></td><td rowspan="1">1590166633040</td><td rowspan="1">26462</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">IETest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">GuiTest.TechnicalChallenge1</td><td><a href="#m1">testSearch</a></td><td rowspan="1">1590166695542</td><td rowspan="1">25201</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">FireFoxTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">GuiTest.TechnicalChallenge1</td><td><a href="#m2">testSearch</a></td><td rowspan="1">1590166778789</td><td rowspan="1">25171</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">GuiTest.TC_1_GuiTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1590590276926</td><td rowspan="1">14128</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">GuiTest.TC_1_GuiTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1590590291125</td><td rowspan="1">-1590590291125</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">GuiTest.TC_1_GuiTest</td><td><a href="#m2">testSearch</a></td><td rowspan="1">1590590291102</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">IETest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">GuiTest.TC_1_GuiTest</td><td><a href="#m3">testSearch</a></td><td rowspan="1">1590590334133</td><td rowspan="1">22691</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FireFoxTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">GuiTest.TC_1_GuiTest</td><td><a href="#m4">testSearch</a></td><td rowspan="1">1590590394826</td><td rowspan="1">21918</td></tr></tbody>
 </table>
-<h2>ChromeTest</h2><h3 id="m0">GuiTest.TechnicalChallenge1#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 20 second(s) with 500 milliseconds interval)
+<h2>ChromeTest</h2><h3 id="m0">GuiTest.TC_1_GuiTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: not connected to DevTools
+  (Session info: chrome=83.0.4103.61)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-GMDIF6L&apos;, ip: &apos;10.12.20.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ROBINC~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63865}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0ca6697cf7b2ee655d35d35b0230af51
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at GuiTest.TechnicalChallenge1.isAlertPresent(TechnicalChallenge1.java:83)
-	at GuiTest.TechnicalChallenge1.testSearch(TechnicalChallenge1.java:62)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>IETest</h2><h3 id="m1">GuiTest.TechnicalChallenge1#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 20 second(s) with 500 milliseconds interval)
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E79563+2725219]
+	Ordinal0 [0x00D78551+1672529]
+	Ordinal0 [0x00C60359+525145]
+	Ordinal0 [0x00C56D6E+486766]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5D83E+514110]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5BBF6+506870]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5B1B7+504247]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5337C+471932]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C56A87+486023]
+	Ordinal0 [0x00C60FF0+528368]
+	Ordinal0 [0x00C0D6C9+186057]
+	Ordinal0 [0x00C0CA3D+182845]
+	Ordinal0 [0x00C0A94B+174411]
+	Ordinal0 [0x00BF2528+75048]
+	Ordinal0 [0x00BF35A0+79264]
+	Ordinal0 [0x00BF3539+79161]
+	Ordinal0 [0x00D8D607+1758727]
+	GetHandleVerifier [0x00F96546+1050150]
+	GetHandleVerifier [0x00F96291+1049457]
+	GetHandleVerifier [0x00FA10D7+1094071]
+	GetHandleVerifier [0x00F96B46+1051686]
+	Ordinal0 [0x00D85B06+1727238]
+	Ordinal0 [0x00D8EB7B+1764219]
+	Ordinal0 [0x00D8ECE3+1764579]
+	Ordinal0 [0x00DA4C05+1854469]
+	BaseThreadInitThunk [0x775A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x776E7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x776E7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at GuiTest.TC_1_GuiTest.setup(TC_1_GuiTest.java:50)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">GuiTest.TC_1_GuiTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">GuiTest.TC_1_GuiTest#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: not connected to DevTools
+  (Session info: chrome=83.0.4103.61)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-GMDIF6L&apos;, ip: &apos;10.12.20.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {browserAttachTimeout: 0, browserName: internet explorer, cssSelectorsEnabled: true, elementScrollBehavior: 0, enableElementCacheCleanup: true, enablePersistentHover: true, handlesAlerts: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.forceCreateProcessApi: false, ie.usePerProcessProxy: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:9118/, javascriptEnabled: true, nativeEvents: true, platform: WINDOWS, platformName: WINDOWS, requireWindowFocus: false, takesScreenshot: true, unexpectedAlertBehaviour: dismiss, unhandledPromptBehavior: dismiss, version: 11}
-Session ID: 5f4a1b36-1558-408f-a252-5746e790cea3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at GuiTest.TechnicalChallenge1.isAlertPresent(TechnicalChallenge1.java:83)
-	at GuiTest.TechnicalChallenge1.testSearch(TechnicalChallenge1.java:62)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>FireFoxTest</h2><h3 id="m2">GuiTest.TechnicalChallenge1#testSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 20 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-GMDIF6L&apos;, ip: &apos;10.12.20.168&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 7592, moz:profile: C:\Users\RobinChaudhary\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6bd85340-5a39-4bb9-824f-7cf856026a0c
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at GuiTest.TechnicalChallenge1.isAlertPresent(TechnicalChallenge1.java:83)
-	at GuiTest.TechnicalChallenge1.testSearch(TechnicalChallenge1.java:62)
-	at java.util.ArrayList.forEach(Unknown Source)
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E79563+2725219]
+	Ordinal0 [0x00D78551+1672529]
+	Ordinal0 [0x00C60359+525145]
+	Ordinal0 [0x00C56D6E+486766]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5D83E+514110]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5BBF6+506870]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5B1B7+504247]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C57739+489273]
+	Ordinal0 [0x00C56EFE+487166]
+	Ordinal0 [0x00C57135+487733]
+	Ordinal0 [0x00C56B75+486261]
+	Ordinal0 [0x00C5337C+471932]
+	Ordinal0 [0x00C56B32+486194]
+	Ordinal0 [0x00C56A87+486023]
+	Ordinal0 [0x00C60FF0+528368]
+	Ordinal0 [0x00C0D6C9+186057]
+	Ordinal0 [0x00C0CA3D+182845]
+	Ordinal0 [0x00C0A94B+174411]
+	Ordinal0 [0x00BF2528+75048]
+	Ordinal0 [0x00BF35A0+79264]
+	Ordinal0 [0x00BF3539+79161]
+	Ordinal0 [0x00D8D607+1758727]
+	GetHandleVerifier [0x00F96546+1050150]
+	GetHandleVerifier [0x00F96291+1049457]
+	GetHandleVerifier [0x00FA10D7+1094071]
+	GetHandleVerifier [0x00F96B46+1051686]
+	Ordinal0 [0x00D85B06+1727238]
+	Ordinal0 [0x00D8EB7B+1764219]
+	Ordinal0 [0x00D8ECE3+1764579]
+	Ordinal0 [0x00DA4C05+1854469]
+	BaseThreadInitThunk [0x775A6359+25]
+	RtlGetAppContainerNamedObjectPath [0x776E7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x776E7BF4+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at GuiTest.TC_1_GuiTest.setup(TC_1_GuiTest.java:50)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>IETest</h2><h3 id="m3">GuiTest.TC_1_GuiTest#testSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FireFoxTest</h2><h3 id="m4">GuiTest.TC_1_GuiTest#testSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

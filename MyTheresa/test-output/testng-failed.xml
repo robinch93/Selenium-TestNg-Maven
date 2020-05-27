@@ -4,37 +4,13 @@
   <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="GuiTest.TechnicalChallenge1">
+      <class name="GuiTest.TC_1_GuiTest">
         <methods>
+          <include name="testSearch"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="testSearch"/>
         </methods>
-      </class> <!-- GuiTest.TechnicalChallenge1 -->
+      </class> <!-- GuiTest.TC_1_GuiTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="IETest(failed)">
-    <parameter name="browser" value="ie"/>
-    <classes>
-      <class name="GuiTest.TechnicalChallenge1">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testSearch"/>
-        </methods>
-      </class> <!-- GuiTest.TechnicalChallenge1 -->
-    </classes>
-  </test> <!-- IETest(failed) -->
-  <test thread-count="5" name="FireFoxTest(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="GuiTest.TechnicalChallenge1">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="testSearch"/>
-        </methods>
-      </class> <!-- GuiTest.TechnicalChallenge1 -->
-    </classes>
-  </test> <!-- FireFoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

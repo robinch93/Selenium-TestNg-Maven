@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class TechnicalChallenge3 {
+public class TC_3_Code {
 
 	
 	public static void main(String[] args) {

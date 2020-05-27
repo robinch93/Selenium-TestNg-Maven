@@ -29,7 +29,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class TechnicalChallenge1 {
+public class TC_1_GuiTest {
 
 	public String baseUrl = "https://www.mytheresa.com/en-it/";
 	public WebDriver driver;
