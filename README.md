@@ -1,5 +1,5 @@
 # MyTheresa
-This project is implementation of three Technical Challenges. 
+This project is implementation of UI and API tests.  
 
 **Prerequisite**
 
@@ -11,9 +11,9 @@ This project is implementation of three Technical Challenges.
 **RUN**
 
 Below are the ways to run all three files :
-1. Technical Challenge 1: Run [testng.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/testng.xml) file in GuiTest package, Right Click - Run As - TestNG Suite
-2. Technical Challenge 2: Run [TechnicalChallenge2.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/ApiTest/TechnicalChallenge2.java) file in ApiTest package, Right Click - Run As - TestNG Suite 
-3. Technical Challenge 3: Run [TechnicalChallenge3.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/CodingProblem/TechnicalChallenge3.java) file in CodingProblem package, Right Click - Run As - Java Application
+1. Test 1: Run [testng.xml](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/GuiTest/testng.xml) file in GuiTest package, Right Click - Run As - TestNG Suite
+2. Test 2: Run [TechnicalChallenge2.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/ApiTest/TechnicalChallenge2.java) file in ApiTest package, Right Click - Run As - TestNG Suite 
+3. Test 3: Run [TechnicalChallenge3.java](https://github.com/robinch93/MyTheresa/blob/master/MyTheresa/src/test/java/CodingProblem/TechnicalChallenge3.java) file in CodingProblem package, Right Click - Run As - Java Application
 
 Below is the dicussion about all the three Challenges with their respective link to the corresponding files:
 
